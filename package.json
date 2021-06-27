@@ -1,0 +1,31 @@
+{
+  "name": "marvinwu",
+  "version": "1.0.0",
+  "description": "![header.png](https://ossbao.oss-cn-qingdao.aliyuncs.com/github/header.png)",
+  "main": "index.js",
+  "scripts": {
+    "frontmover": "frontmover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvinwu/marvinwu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvinwu/marvinwu/issues"
+  },
+  "homepage": "https://github.com/marvinwu/marvinwu#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.4.1",
+    "frontmover": "^1.0.0",
+    "generate-schema": "^2.6.0",
+    "glob": "^7.1.7",
+    "gray-matter": "^4.0.3",
+    "jsonfile": "^6.1.0",
+    "lodash": "^4.17.21",
+    "nunjucks": "^3.2.3",
+    "shelljs": "^0.8.4"
+  }
+}

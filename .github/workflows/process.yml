@@ -1,0 +1,35 @@
+name: process
+on:
+  workflow_dispatch:  
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9.5
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.5
+      - name: Install dependencies
+        run: |
+            pip install sqlite-utils 
+      - name: Install Dependencies
+        run: npm ci
+      - name: pull data
+        run: |-
+          rm -rf tmp
+          mkdir -p tmp
+          git clone --depth 1 https://marvinwu:${{secrets.TOKEN}}@github.com/marvinwu/obsidian tmp/raw
+      - name: run main flow
+        run: ./src/process.sh
+      - name: run render flow
+        run:  ./src/render.sh
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push

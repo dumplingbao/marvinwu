@@ -1,0 +1,7 @@
+const jsonfile = require('jsonfile')
+const nunjucks = require('nunjucks')
+const cheatsheet = jsonfile.readFileSync('tmp/json/cheatsheet.json')
+const survey = jsonfile.readFileSync('tmp/json/survey.json')
+const tils = jsonfile.readFileSync('tmp/json/tils.json')
+const output = nunjucks.render('src/README.njk', { cheatsheet, survey, tils })
+console.log(output)
