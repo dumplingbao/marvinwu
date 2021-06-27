@@ -18,14 +18,16 @@
 
 ## What is this ?
 
-I am [zettelkasten](https://www.youtube.com/watch?v=nPOI4f7yCag) fan, and I am using [Obsidian](https://obsidian.md/) to keep track of everything, it synced to a private git repo of mine and was very nice. But it also messy and not organized. Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/Oct/9/git-scraping/), I creatd this repo to :
+I am [zettelkasten](https://www.youtube.com/watch?v=nPOI4f7yCag) fan, and I am using [Obsidian](https://obsidian.md/) to keep track of everything, it synced to a private git repo was very nice. But it also messy and not organized. 
 
-    * import my notes from another private repo of mine.
-    * clean the notes (mainly fixing the front matters)
-    * use [zoni/obsidian-export](https://github.com/zoni/obsidian-export) to convert those notes to markdown
-    * dumped notes to db 
-    * use SQL to query and group the notes into different topic
-    * render the README.md every day from the data
+Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/Oct/9/git-scraping/), I creatd this repo to :
+
+* import my notes from another private repo of mine.
+* clean the notes (mainly fixing the front matters)
+* use [zoni/obsidian-export](https://github.com/zoni/obsidian-export) to convert those notes to markdown
+* dumped notes to db 
+* use SQL to query and group the notes into different topic
+* render the README.md every day from the data
 
 ## 📝 Today I Learned
 
