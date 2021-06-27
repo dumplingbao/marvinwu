@@ -1,5 +1,5 @@
 
-## 🧰 Tech Stack 🧰
+## 🧰 Tech Stack 
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 ## 📝 Today I Learned
 
-### Surveys 
+### 🧭 Surveys 
 
 > Good artists borrow, great artists steal. - Steve Jobs
 
@@ -30,12 +30,12 @@
  * [visual badages](tils/visual%20badages.md)
 
 
-### CheatSheet 
+### 🗒 CheatSheet 
  * [serverless sns](tils/serverless%20sns.md)
  * [Svelte Cheat Sheet](tils/Svelte%20Cheat%20Sheet.md)
 
 
-### Tils 
+### 🗂 Tils 
 
  * [Atleast one invalid signature was encountered error during docker build](tils/Atleast%20one%20invalid%20signature%20was%20encountered%20error%20during%20docker%20build.md)
  * [BITS](tils/BITS.md)
