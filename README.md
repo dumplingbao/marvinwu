@@ -1,19 +1,3 @@
-![header.png](http://screenshotcxg.s3-website-us-east-1.amazonaws.com/screencap/4h9ECzxr9tfb28010b32e3251d5eba7bd338c3f40a.png)
-
-<i><b>Marvin Wu</b></i>
-
-<hr>
-<p align="center">
-
-## Fluency
-
-​ Backend：🔆 🉑
-
-​ Frontend: ⛈️
-
-​ Devops: 🔆 🉑
-
-​ Cloud: 🔆 🉑
 
 ## 🧰 Tech Stack 🧰
 
@@ -33,7 +17,7 @@
 
 ## 📝 Today I Learned
 
-### Survey 
+### Surveys 
 
 > Good artists borrow, great artists steal. - Steve Jobs
 
