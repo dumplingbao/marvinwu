@@ -1,12 +1,6 @@
 ---
 
-
-
-
 ---
-
-
-
 
 * Does SNS has a region ? 
 yes it does has an region, subsriber seems needs to be in the same region of the sns, but pub can send across region ?

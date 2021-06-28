@@ -35,10 +35,15 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 
 > Good artists borrow, great artists steal. - Steve Jobs
 
+ * [Datasette survey](tils/Datasette%20survey.md)
  * [Human in the loop survey](tils/Human%20in%20the%20loop%20survey.md)
+ * [Nodejs testing survey](tils/Nodejs%20testing%20survey.md)
+ * [product-hunt survey](tils/product-hunt%20survey.md)
  * [awessome repos survey](tils/awessome%20repos%20survey.md)
  * [Obsidian Course Survey](tils/Obsidian%20Course%20Survey.md)
+ * [Software Developer Job Ad Survey](tils/Software%20Developer%20Job%20Ad%20Survey.md)
  * [Text Parsing and query Tools Survey](tils/Text%20Parsing%20and%20query%20Tools%20Survey.md)
+ * [SQLite Survey](tils/SQLite%20Survey.md)
  * [test driven data processing survey](tils/test%20driven%20data%20processing%20survey.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)
  * [visual badages](tils/visual%20badages.md)
@@ -52,6 +57,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 ### 🗂 Tils 
 
  * [Atleast one invalid signature was encountered error during docker build](tils/Atleast%20one%20invalid%20signature%20was%20encountered%20error%20during%20docker%20build.md)
+ * [AWS SNS FAQ](tils/AWS%20SNS%20FAQ.md)
  * [BITS](tils/BITS.md)
  * [drf_yasg  auto doc gen](tils/drf_yasg%20%20auto%20doc%20gen.md)
  * [How to allow Domain Wild card in cors Django Rest](tils/How%20to%20allow%20Domain%20Wild%20card%20in%20cors%20Django%20Rest.md)
@@ -60,6 +66,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [How to use ACT to emulate github workflow](tils/How%20to%20use%20ACT%20to%20emulate%20github%20workflow.md)
  * [LERNA](tils/LERNA.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)
+ * [Regexp to match vercel deploy url](tils/Regexp%20to%20match%20vercel%20deploy%20url.md)
  * [Restore RDS from snapshot](tils/Restore%20RDS%20from%20snapshot.md)
  * [serverless sns](tils/serverless%20sns.md)
  * [Svelte Cheat Sheet](tils/Svelte%20Cheat%20Sheet.md)

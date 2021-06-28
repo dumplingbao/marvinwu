@@ -1,9 +1,6 @@
 ---
 
 
-
-
-
 Type: #🔭
 Topics: 
  Urban Spring
@@ -15,9 +12,6 @@ Ref:
 Date: 2021-03-22
 
 ---
-
-
-
 
 * pretty good, come back [stack overflow software position](https://www.google.com/search?q=stack+overflow+software+position&ei=NVNYYKqSJ8yXr7wPuY-6yAk&oq=stack+overflow+software+position&gs_lcp=Cgdnd3Mtd2l6EAMyCQgAEMkDEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoCCAA6BQgAEMkDOgYIABAWEB46CAghEBYQHRAeOgUIIRCgAToECCEQFVDjNlijWWDiW2gDcAJ4AIABlgGIAbMHkgEEMTAuMpgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwjZ97Xju8PvAhUNGKYKHaEtCaYQkd0GMAF6BAgsEAE#fpstate=tldetail&htivrt=jobs&htiq=stack+overflow+software+position&htidocid=CBrOUOT2KeVQMRoWAAAAAA%3D%3D)
 

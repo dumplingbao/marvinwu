@@ -1,12 +1,6 @@
 ---
 
-
-
-
 ---
-
-
-
 
 How does testing and mock data should be done in nodejs ?
 

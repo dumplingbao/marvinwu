@@ -1,12 +1,6 @@
 ---
 
-
-
-
 ---
-
-
-
 
 * how to use named insert in sqlite?
 

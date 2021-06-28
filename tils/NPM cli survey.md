@@ -1,17 +1,11 @@
 ---
 
-
-
-
 Status: 
 Date: 2021-06-08
 Topic:
 -  CLI
 -  NPM
 ---
-
-
-
 
 * interesting, could use this [cli - npm](https://www.npmjs.com/package/cli)
 

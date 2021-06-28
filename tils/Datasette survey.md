@@ -1,12 +1,6 @@
 ---
 
-
-
-
 ---
-
-
-
 
 ## Interesting things to try
 

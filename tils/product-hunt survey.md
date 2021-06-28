@@ -1,12 +1,6 @@
 ---
 
-
-
-
 ---
-
-
-
 
 * [Newsletters to Kindle - Automatically send your newsletters to your Kindle](https://www.producthunt.com/posts/newsletters-to-kindle)
 

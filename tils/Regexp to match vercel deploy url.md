@@ -1,9 +1,6 @@
 ---
 
 
-
-
-
 category: regex
 tags:
 -  Programming
@@ -13,9 +10,6 @@ Ref:
 Date: 2021-05-03
 
 ---
-
-
-
 
 I need a simple regexp to tell [django-cors-headers · PyPI](https://pypi.org/project/django-cors-headers/) I want everything deployed in vercel ( ending with vercel.app) 
 

@@ -1,9 +1,6 @@
 ---
 
 
-
-
-
 Topic:
 -  RDS
 
@@ -12,9 +9,6 @@ Ref:
 Date: 2021-05-27
 
 ---
-
-
-
 
 
 * note down the security group

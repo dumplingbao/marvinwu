@@ -1,8 +1,5 @@
 ---
 
-
-
-
 Status: 
 Date: 2021-06-08
 Topic:
@@ -12,9 +9,6 @@ Topic:
 
 Ref:
 ---
-
-
-
 
 #### test driven data processing
 

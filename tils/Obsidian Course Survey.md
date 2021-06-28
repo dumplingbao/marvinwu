@@ -1,8 +1,5 @@
 ---
 
-
-
-
 Type: #🔭 
 Date: 2021-02-16
 Topic:
@@ -10,9 +7,6 @@ Topic:
  Obsidian
 
 ---
-
-
-
 
 *  [Obsidian Made Simple Course — Keep Productive](https://www.keepproductive.com/obsidian-made-simple)
 

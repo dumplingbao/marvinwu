@@ -1,9 +1,6 @@
 ---
 
 
-
-
-
 Topic:
 -  Django And Django Rest
 -  CORS
@@ -12,9 +9,6 @@ Ref:
 Date: 2021-05-03
 
 ---
-
-
-
 
 First try: add it in the CORS_ORIGIN_WHITELIST,  [
     "https://*.example.hk",
