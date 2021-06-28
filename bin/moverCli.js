@@ -46,6 +46,9 @@ program
           let { data = null } = matter(inputContent)
           if (typeof data === 'object') {
             let Topic = _.get(data, 'Topic')
+            if (!Topic) {
+              Topic = ['']
+            }
             if (typeof Topic === 'string') {
               Topic = [Topic]
             }
