@@ -240,6 +240,7 @@ sqlite3 -header -csv data/sands.db 'select * from output_blog_20' >data/blogs.cs
 
 ```
 sqlite-utils data/sands.db "select * from type_quick_view_10 limit 2" --json-cols > test.json
+
 ```
 
 * where can I find sqlite extensions?
