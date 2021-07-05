@@ -47,6 +47,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [test driven data processing survey](tils/test%20driven%20data%20processing%20survey.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)
  * [visual badages](tils/visual%20badages.md)
+ * [VPC connection](tils/VPC%20connection.md)
  * [VPC survey](tils/VPC%20survey.md)
 
 
