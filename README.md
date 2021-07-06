@@ -43,6 +43,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [Obsidian Course Survey](tils/Obsidian%20Course%20Survey.md)
  * [Software Developer Job Ad Survey](tils/Software%20Developer%20Job%20Ad%20Survey.md)
  * [Text Parsing and query Tools Survey](tils/Text%20Parsing%20and%20query%20Tools%20Survey.md)
+ * [setup VPC public and private subnet for lambda survey](tils/setup%20VPC%20public%20and%20private%20subnet%20for%20lambda%20survey.md)
  * [SQLite Survey](tils/SQLite%20Survey.md)
  * [test driven data processing survey](tils/test%20driven%20data%20processing%20survey.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)

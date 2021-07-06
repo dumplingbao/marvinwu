@@ -110,8 +110,26 @@ Ref:
 
 	good tutorial
 	
+![[Pasted image 20210705141045.png]]
+
 
 ***
+
+* how to add a nat-gateway to a vpc ?
+
+	ref: [Set up a NAT Gateway](https://aws.amazon.com/premiumsupport/knowledge-center/nat-gateway-vpc-private-subnet/)
+
+	* Create a public VPC subnet to host the NAT gateway. The route table for the subnet should contain a route to the Internet through an Internet gateway.
+	* Provision an unattached Elastic IP address (EIP) to your account. You’ll need to associate this IP address with the NAT gateway.
+	* Update the route table of the private subnet hosting the EC2 instances that need Internet access. The route table should be updated to direct Internet-bound traffic to the NAT gateway.
+
+
+* how can you connect a VPC to amazon services like sns/s3/aws ?
+
+by creating an endpoint 
+
+[Create Endpoint | VPC Management Console](https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#CreateVpcEndpoint:vpcEndpointId=vpce-0a282efa39a5e6b70)
+
 
 * What is security group ?
 [Security groups for your VPC - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
@@ -156,6 +174,11 @@ This is the networking part, think virtual routers
 	
 	![[Pasted image 20210702181232.png]]
 	
+* hohw to setup a public subnet in VPC ?
+
+ref:[VPC with a single public subnet - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario1.html)
+
+
 	
 * to rds
 

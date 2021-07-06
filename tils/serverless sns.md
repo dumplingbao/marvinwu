@@ -65,3 +65,15 @@ functions:
 
 ```
 
+* why do i get target arn not found error ?
+
+```
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.InvalidParameterException: An error occurred (InvalidParameter) when calling the Publish operation: Invalid parameter: TargetArn
+```
+
+one of the reason could be when you initize the boto3 client, the region is different from the sns region
+
+
+
+
