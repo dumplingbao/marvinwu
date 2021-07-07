@@ -11,8 +11,13 @@ Ref:
 
 ---
 
+* How to enable lambda to send sns in a private VPC using interface endpoint ?
 
+VPC -> Endpoints -> create endpoint
 
+![[Pasted image 20210706163914.png]]
+
+choose the service and attach to the vpc, thats it.
 
 ### Surveys
 
@@ -81,11 +86,18 @@ Ref:
 	* create two subnet
 	* create internet gateway
 	* attach IGW to VPC
-	* Choose the subnet you want to be public, create NAT gateway
+	* create NAT gateway
+
+		 * Choose the subnet you want to be public
+		 * 
+		 
+	*
 	* create new EIP
 	![[Pasted image 20210706110331.png]]
 	* add routes to routing table
 
+	connectivity - choose public
+	![[Pasted image 20210706140827.png]]
 
 * [AWS Lambda: Enable Outgoing Internet Access within VPC | by Philipp Holly | Medium](https://medium.com/@philippholly/aws-lambda-enable-outgoing-internet-access-within-vpc-8dd250e11e12)
 
