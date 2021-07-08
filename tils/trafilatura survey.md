@@ -45,13 +45,21 @@
 	
 	```
 	
+* [v. A Gentle Introduction to XML - The TEI Guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html)
 
-* [Tutorials — trafilatura 0.9.0 documentation](https://trafilatura.readthedocs.io/en/latest/tutorials.html)
-	official
-	
-* [trafilatura: Web scraping tool for text discovery and retrieval — trafilatura 0.9.0 documentation](https://trafilatura.readthedocs.io/en/latest/)	
+> XML is a ==metalanguage==, that is, a language used to describe other languages, i
 
-	official
+> Compared with HTML
+
+> XML is extensible: it does not consist of a fixed set of tags;
+> XML documents must be well-formed according to a defined syntax;
+an XML document can be formally validated against a set of schema rules for consistent application;
+* XML is more interested in the ==meaning of data than in its presentation==.
+
+* [TextBlob: Simplified Text Processing — TextBlob 0.16.0 documentation](https://textblob.readthedocs.io/en/dev/)
+
+
+
 	
 * [Filtering links to gather texts on the web - Bits of Language: corpus linguistics, NLP and text analytics](https://adrien.barbaresi.eu/blog/link-filtering-courlan-python.html)
 

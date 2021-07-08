@@ -18,11 +18,14 @@ vpc-well1-lambda[vpc-well1-lambda<br/>vpc-0c148e15806c467b5<br/> well1ap-southea
 lambda-well1-csv[lambda-CSV<br/>subnet-0c33b458fcf84d32a 10.10.160.0/19 <br/>subnet-0e332ae06ba943416 10.10.192.0/19] 
 nat-gateway-testing[(Nat-Gateway<br/>nat-0773d497fa600c461<br/>subnet-06bfc956632613f8d<br/>172.30.0.110)]
 
+nat-gateway-west-2[(nat-gateway-west-2)]
+
+
 route-table-bdaf{route-table-bdaf<br/>rtb-0d139aad0aa97bdaf / ain-public-subnet<br/>172.30.0.0/16->local<br/>10.10.0.0/6->well1-lambda<br/>10.43.0.0/16->well2-lambda<br/>0.0.0.0/0->igw-05ca1153f37b4095a}
 
 route-table-7e27{route-table-7e27<br/>rtb-0ff6a9e5b27c57e27<br/> lambda-private-rt<br/> 172.30.0.0/16->local<br/>0.0.0.0/0->nat-0773d497fa600c461<br/>10.10.0.0/16->well1-lambda<br/>10.43.0.0/16->well2-lambda}
 
-route-table-0191{route-table-0191<br/>rtb-0d7542ca316130191<br/>172.30.0.016->well2-rds<br/>10.43.0.0/16->local<br/> aws-s3->vpce-0a3c7d7de7c7647bb<br/>0.0.0.0/0->nat-0c6485f6d4b1c4a45>}
+route-table-0191{route-table-0191<br/>rtb-0d7542ca316130191<br/>172.30.0.016->well2-rds<br/>10.43.0.0/16->local<br/> aws-s3->vpce-0a3c7d7de7c7647bb<br/>0.0.0.0/0->nat-west-2>}
 
 route-table-f60d{route-table-f60d<br/>10.43.0.0/16->local<br/>0.0.0.0/0->igw-05b523478e4f5a2b0}
 
@@ -37,10 +40,14 @@ subnet-0a7f[subnet-08f05cdc44b3e0a7f<br/>public ip <br/> 172.30.4.0/24]
 
 RDS[RDS <br/> subnet-0d221304e33625cee 172.30.2.0/24 <br/> subnet-0030d3bb0d112504e 172.30.1.0/24 <br/> subnet-06bfc956632613f8d 172.0.0.0/24] 
 
-subnet-b045---vpc-well2-lambda
+nat-gateway-west-2---|EIP 35.82.50.52|igw-05b523478e4f5a2b0
+igw-05b523478e4f5a2b0-->internet
+
 
 subnet-b045---route-table-f60d
+nat-gateway-west-2---subnet-b045
 
+subnet-b045---vpc-well2-lambda
 
 route-table-0191---subnet-20cb
 route-table-0191---subnet-b0de

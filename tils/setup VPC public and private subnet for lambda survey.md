@@ -83,22 +83,17 @@ choose the service and attach to the vpc, thats it.
 
 	> If a VPC doesn't have an Internet Gateway, then the resources cannot be accessed from the Internet. Conversely, resources within your VPC need an Internet Gateway to access the Internet.
 
-	* create two subnet
-	* create internet gateway
-	* attach IGW to VPC
+	* create two subnet in the subnet
+	* create internet gateway, attach it to the VPC
 	* create NAT gateway
-
-		 * Choose the subnet you want to be public
-		 * 
-		 
-	*
-	* create new EIP
-	![[Pasted image 20210706110331.png]]
-	* add routes to routing table
-
-	connectivity - choose public
-	![[Pasted image 20210706140827.png]]
-
+		 * assign it to the subnet you want to be public
+	* create a public routing table, add default route to IGW in the public subnet
+		![[Pasted image 20210707142355.png]]
+	* create a private routing table, add default route to NAT in the private subnet
+		![[Pasted image 20210707142301.png]]
+	* put lamba in the private subnet
+	
+	
 * [AWS Lambda: Enable Outgoing Internet Access within VPC | by Philipp Holly | Medium](https://medium.com/@philippholly/aws-lambda-enable-outgoing-internet-access-within-vpc-8dd250e11e12)
 
 read it first
