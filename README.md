@@ -47,6 +47,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [SQLite Survey](tils/SQLite%20Survey.md)
  * [test driven data processing survey](tils/test%20driven%20data%20processing%20survey.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)
+ * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
  * [trafilatura survey](tils/trafilatura%20survey.md)
  * [visual badages](tils/visual%20badages.md)
  * [VPC connection](tils/VPC%20connection.md)
@@ -55,6 +56,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 
 ### 🗒 CheatSheet 
  * [serverless sns](tils/serverless%20sns.md)
+ * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
  * [Svelte Cheat Sheet](tils/Svelte%20Cheat%20Sheet.md)
 
 
@@ -73,6 +75,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [Regexp to match vercel deploy url](tils/Regexp%20to%20match%20vercel%20deploy%20url.md)
  * [Restore RDS from snapshot](tils/Restore%20RDS%20from%20snapshot.md)
  * [serverless sns](tils/serverless%20sns.md)
+ * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
  * [Svelte Cheat Sheet](tils/Svelte%20Cheat%20Sheet.md)
  * [use Jupyter notebook with vscode](tils/use%20Jupyter%20notebook%20with%20vscode.md)
 
