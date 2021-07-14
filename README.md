@@ -36,6 +36,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 > Good artists borrow, great artists steal. - Steve Jobs
 
  * [Datasette survey](tils/Datasette%20survey.md)
+ * [hierarchical model survey](tils/hierarchical%20model%20survey.md)
  * [Human in the loop survey](tils/Human%20in%20the%20loop%20survey.md)
  * [Nodejs testing survey](tils/Nodejs%20testing%20survey.md)
  * [product-hunt survey](tils/product-hunt%20survey.md)
@@ -55,6 +56,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 
 
 ### 🗒 CheatSheet 
+ * [Serverless sls cheatsheet](tils/Serverless%20sls%20cheatsheet.md)
  * [serverless sns](tils/serverless%20sns.md)
  * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
  * [Svelte Cheat Sheet](tils/Svelte%20Cheat%20Sheet.md)

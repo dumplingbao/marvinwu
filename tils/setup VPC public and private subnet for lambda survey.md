@@ -45,7 +45,7 @@ choose the service and attach to the vpc, thats it.
 
 	why need nat gateway ? can't use igw and public ip ?
 
-	[[Serverless and Lambdas]] VPC networking example
+	[[Serverless sls cheatsheet]] VPC networking example
 	ref: [serverless-vpc-examples/nat-gateway at master · alexdebrie/serverless-vpc-examples](https://github.com/alexdebrie/serverless-vpc-examples/tree/master/nat-gateway)  #🚧  try it 
 
 	* > Create a VPC endpoint for your desired service
@@ -57,7 +57,7 @@ choose the service and attach to the vpc, thats it.
 		* > Gateway endpoints are simply a route in your subnet’s route table that directs traffic directly to the given service. Gateway endpoints are great because they don’t cost you anything to run. Unfortunately, ==gateway endpoints are only supported for Amazon S3 and DynamoDB==. If you want other services, you’re out of luck.
 
 		* > Interface endpoints support a much broader menu of services, including Amazon CloudWatch, Amazon SNS, Amazon SQS, and Amazon Kinesis. Interface endpoints use AWS PrivateLink to route your network traffic to the given service. Unfortunately,==interface endpoints do have an associated cost== — $0.01 per hour per endpoint per AZ (~$7.50 per month)
-			[[Serverless and Lambdas]] ref: https://github.com/alexdebrie/serverless-vpc-examples/tree/master/vpc-endpoint
+			[[Serverless sls cheatsheet]] ref: https://github.com/alexdebrie/serverless-vpc-examples/tree/master/vpc-endpoint
 
 			The ==PrivateDnsEnabled property configures private DNS in our VPC for the public DNS name to route to the private IP addresses for the service==. In our situation, this means sns.us-east-1.amazonaws.com will route to our VPC endpoint.
 
