@@ -42,6 +42,12 @@ Date: 2021-01-21
     "threshold_count": 4
 }
 	 ```
+	 
+	 and you can mock the trigger by
+	 
+	 ```
+	 sls invoke -f function_name --path mock_input_json_path
+	 ```
 - how to invoke sls command using a particular aws-profile?
 
 ```

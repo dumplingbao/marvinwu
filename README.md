@@ -56,6 +56,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 
 
 ### 🗒 CheatSheet 
+ * [Postgresql cheatsheet](tils/Postgresql%20cheatsheet.md)
  * [Serverless sls cheatsheet](tils/Serverless%20sls%20cheatsheet.md)
  * [serverless sns](tils/serverless%20sns.md)
  * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
