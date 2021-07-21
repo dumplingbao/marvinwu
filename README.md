@@ -50,6 +50,7 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
  * [VPC survey](tils/VPC%20survey.md)
  * [SQLite Survey](tils/SQLite%20Survey.md)
  * [succulent survey](tils/succulent%20survey.md)
+ * [succulent topics outline](tils/succulent%20topics%20outline.md)
  * [test driven data processing survey](tils/test%20driven%20data%20processing%20survey.md)
  * [NPM cli survey](tils/NPM%20cli%20survey.md)
  * [SQLite Cheatsheet](tils/SQLite%20Cheatsheet.md)
