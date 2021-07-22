@@ -12,6 +12,17 @@ Ref:
 
 ---
 
+* how to join multiple table ?
+
+```
+create table feed_30 as
+select
+    *
+from
+    feed_10
+    left join keywords_10 on keywords_10.id = feed_10.id
+    left join feed_20 on feed_20.id = feed_10.id
+```
 * how to use named insert in sqlite?
 
 ```

@@ -4,7 +4,7 @@ Status:
 Date: 2021-05-12
 Topic:
 -  GitLab Ci
--  Vercel Deployment
+-  Vercel Deployment cheatsheet
 Ref:
 
 ---
