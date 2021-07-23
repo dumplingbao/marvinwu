@@ -9,29 +9,73 @@ Ref:
 ---
 
 
-succulent knoweldge
+## Identification & knowledge
+* self-defense tactics
+* drought-survivial strateigies
+* 
+## care
+* watering:
+	* how to water
+	* when to water
+	* water problems
+	* how to check overwatered succulents
+* Soil
 
-good variers of succulent plants
+* Sun exposure
 
-uniques
-caring 
-questions of hardiness
-choose the right succuelnts
-	for beginners
-	
-### care:
+* cleaning and trimming
 
-watering:
+* fertiizing 
 
-* how to water
-* when to water
-* water problems
-* growing
-* progagating
-* designing
-	
-* how to get ride of bugs 
-* what to do when succulents growing tall
+* potting
+	* repoting
+	* pot types and sytles
+	* top dressing
+	* choose right container
+	* non-draining container
+	* ususual container
+
+* pests and diseases
+* grooming
+* propagating
+	* propagate by leaves
+	* propagate by cutting
+	* propagate by chicks
+	* propagate by seeds
+
+* deal with changes
+
+	* bring home succulent plants
+	* 
+## selecting 
+
+* purchasing
+* selecting succulent for 
+	* best succulent for beginners
+	* cold hardy succulents
+## arranging
+* plant palette
+* companion plants
+* arranging by height
+* arranging  by color
+* pairing
+* displaying
+
+## creative design and displays
+* pots for outdoor 
+* hanging baskets
+* wall pots and planted walls
+* wreaths
+* topiaries
+ 
+## projects
+
+* indoor container gardens
+* outdoor gardens
+* easy decorative projects
+
+
+
 
 
 ### Garden Design
