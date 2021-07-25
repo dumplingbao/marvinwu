@@ -14,8 +14,8 @@ Ref:
 * drought-survivial strateigies
 * 
 ## care
-* watering:
-	* how to water
+###  watering:
+#### how to water
 	* when to water
 	* water problems
 	* how to check overwatered succulents
