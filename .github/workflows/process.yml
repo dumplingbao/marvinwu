@@ -31,8 +31,7 @@ jobs:
       - uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: dist/github-snake.gif
-          svg_out_path: dist/github-snake.svg        
+          svg_out_path: dist/github-snake.svg  
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
