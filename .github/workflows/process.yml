@@ -22,7 +22,7 @@ jobs:
         run: |-
           rm -rf tmp
           mkdir -p tmp
-          mkdir -p dist
+          mkdir -p files
           git clone --depth 1 https://marvinwu:${{secrets.TOKEN}}@github.com/marvinwu/obsidian tmp/raw
       # - name: run main flow
       #   run: ./src/process.sh
@@ -31,7 +31,7 @@ jobs:
       - uses: Platane/snk@master
         with:
           github_user_name: marvinwu
-          svg_out_path: ./github-snake.svg  
+          svg_out_path: files/github-snake.svg  
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
