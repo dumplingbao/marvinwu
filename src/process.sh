@@ -22,7 +22,7 @@ sqlite-utils tmp/db/test.db "SELECT DISTINCT (filename),
 sqlite-utils tmp/db/test.db "SELECT DISTINCT (filename),
                 file_url, file_path
   FROM tils_30
- WHERE file_path LIKE '%tils%';
+ WHERE topic LIKE '%til%';
 " --json-cols > tmp/json/tils.json
 
 sqlite-utils tmp/db/test.db "SELECT DISTINCT (filename),
@@ -31,6 +31,6 @@ sqlite-utils tmp/db/test.db "SELECT DISTINCT (filename),
  WHERE filename LIKE '%cheat%' or topic like '%cheat%' or topic like '%faq%'
 " --json-cols > tmp/json/cheatsheet.json
 
-node bin/moverCli.js move tmp/json/tils.json
 node bin/moverCli.js move tmp/json/cheatsheet.json
 node bin/moverCli.js move tmp/json/survey.json
+node bin/moverCli.js move tmp/json/tils.json
