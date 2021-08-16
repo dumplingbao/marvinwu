@@ -23,10 +23,10 @@ jobs:
           rm -rf tmp
           mkdir -p tmp
           git clone --depth 1 https://marvinwu:${{secrets.TOKEN}}@github.com/marvinwu/obsidian tmp/raw
-      - name: run main flow
-        run: ./src/process.sh
-      - name: run render flow
-        run:  ./src/render.sh
+      # - name: run main flow
+      #   run: ./src/process.sh
+      # - name: run render flow
+      #   run:  ./src/render.sh
       - uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
