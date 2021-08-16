@@ -22,6 +22,7 @@ jobs:
         run: |-
           rm -rf tmp
           mkdir -p tmp
+          mkdir -p dist
           git clone --depth 1 https://marvinwu:${{secrets.TOKEN}}@github.com/marvinwu/obsidian tmp/raw
       # - name: run main flow
       #   run: ./src/process.sh
