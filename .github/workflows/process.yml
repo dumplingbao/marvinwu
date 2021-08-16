@@ -20,6 +20,7 @@ jobs:
         run: npm ci
       - name: pull data
         run: |-
+          rm -rf tils && mkdir -p tils
           rm -rf tmp
           mkdir -p tmp
           mkdir -p files
