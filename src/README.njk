@@ -14,7 +14,14 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 * use SQL to query and group the notes into different topic
 * render the README.md every day from the data
 
-## 📝 Today I Learned
+### 🗂 Tils 
+
+{% for item in tils %} * [{{item.filename}}]({{item.file_url}})
+{% endfor %}
+
+### 🗒 CheatSheet 
+{% for item in cheatsheet %} * [{{item.filename}}]({{item.file_url}})
+{% endfor %}
 
 ### 🧭 Surveys 
 
@@ -23,11 +30,5 @@ Inspired by [Simon Willison's Gitscrape process](https://simonwillison.net/2020/
 {% for item in survey %} * [{{item.filename}}]({{item.file_url}})
 {% endfor %}
 
-### 🗒 CheatSheet 
-{% for item in cheatsheet %} * [{{item.filename}}]({{item.file_url}})
-{% endfor %}
 
-### 🗂 Tils 
 
-{% for item in tils %} * [{{item.filename}}]({{item.file_url}})
-{% endfor %}
